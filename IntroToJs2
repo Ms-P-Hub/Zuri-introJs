@@ -1,0 +1,20 @@
+var value1 = parseInt(prompt("Please enter your first Value: \n"));
+var value2 = parseInt(prompt("Please enter your second Value: \n"));
+var operation = prompt("Please choose an operation: 1.Addition(+) 2.Subtraction(-) 3.Multiplication(*) 4.Division(/)\n");
+
+if(operation == 1){
+  var sum = value1 + value2;
+  console.log(sum);
+} else if(operation == 2){
+  var difference = value1 - value2;
+  console.log(difference);
+} else if(operation == 3){
+  var product = value1 * value2;
+  console.log(product);
+} else if(operation == 4){
+  var quotient = value1 / value2;
+  console.log(quotient);
+} else {
+  console.log("Plase enter integers and choose either 1, 2, 3 or 4 for an operator");
+}
+  
